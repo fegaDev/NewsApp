@@ -30,9 +30,33 @@ body{
     margin: 0;
     font-family: var(--title-);
     font-size: 5rem;
-    color: rgba(0, 0, 0, 0.541)    
+    color: rgb(0, 0, 0)    
+}
+.titleNoticia{
+    margin: 0;
+    font-family: var(--title-);
+    font-size: 2.5rem;
+    color: #000;
+}
+.textNoticia{
+    margin: 0;
+    font-family: var(--text-);
+    font-size: 1.2rem;
+    color: var(--brightness);
+    font-weight: bold;
 }
 .card{
     background-color: transparent !important;
-    border: 1px dashed black;
+    box-shadow: 3px 0px 8px 0px black;
+}
+.btnNoticia{
+    font-family: var(--text-);
+    font-size: 1rem;
+    padding: 5px;
+    color: var(--myBlack);
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 1px black;
 }
