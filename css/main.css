@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+:root{
+    
+    --title- : font-family: 'Aboreto', cursive;
+    --text-  : font-family: 'Nanum Myeongjo', serif;
+    --myRed  : #9d5353;
+    --BlackVintage: #484441;
+    --myBlack : #000000;
+    --brightness: #464646;  
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: url(/resources/bcgVintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
