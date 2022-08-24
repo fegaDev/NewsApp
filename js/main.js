@@ -1,8 +1,8 @@
 
-let urlSport = ('https://newsapi.org/v2/top-headlines?category=sport&language=es&apiKey=036d0e62c7724afea656f4f44b87b354');
-let urlPolitics =('https://newsapi.org/v2/top-headlines?category=politics&language=es&apiKey=036d0e62c7724afea656f4f44b87b354');
+let urlSport = ('https://newsapi.org/v2/top-headlines?category=sport&language=es&apiKey=');
+let urlPolitics =('https://newsapi.org/v2/top-headlines?category=politics&language=es&apiKey=');
 let urlMundo = ('https://deperu.com/api/rest/noticias.json');
-let urlTec =('https://newsapi.org/v2/top-headlines?category=technology&apiKey=036d0e62c7724afea656f4f44b87b354')
+let urlTec =('https://newsapi.org/v2/top-headlines?category=technology&apiKey=')
 let date = document.getElementById('fecha');
 date.innerHTML = new Date();
 
